@@ -13,3 +13,5 @@ $conn = mysqli_connect("localhost", "root", "", "crud") or die("connection faild
     $result = mysqli_query($conn, $sql) or die("Querry unsuccesful") or die("query unsuccesful");
 header("Location: http://localhost/crud/index.php");
 mysqli_close($conn);
+
+?>
